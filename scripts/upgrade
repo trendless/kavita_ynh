@@ -17,6 +17,7 @@ ynh_script_progression "Upgrading source files..."
 
 ynh_hide_warnings ynh_setup_source_kavita --dest_dir="$install_dir" --full_replace --keep="config"
 
+#chown -R "$app:$app" "$install_dir"
 chmod +x "$install_dir/Kavita"
 
 #=================================================
